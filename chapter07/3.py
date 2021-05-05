@@ -3,4 +3,4 @@ array = list(map(int, input().split()))
 
 start = 0
 end = max(array)
-
+h = (start+end)//2
