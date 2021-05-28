@@ -15,6 +15,5 @@ for i in range(1, n+1):
     result.append((i, fail))
 
 result = sorted(result, key=lambda t:t[1], reverse = True)
-print(result)
 result = [i[0] for i in result]
 print(result)
